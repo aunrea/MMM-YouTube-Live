@@ -13,7 +13,7 @@ cd ~/MagicMirror/modules
 2. Clone this repository
 
 ```bash
-git clone https://github.com/ngnijland/MMM-YouTube-Live-Stream.git
+git clone https://github.com/aunrea/MMM-YouTube-Live.git
 ```
 
 3. Install module dependencies
@@ -22,7 +22,7 @@ git clone https://github.com/ngnijland/MMM-YouTube-Live-Stream.git
 npm install
 ```
 
-**Note:** Run this inside the `modules/MMM-YouTube-Live-Stream` folder.
+**Note:** Run this inside the `modules/MMM-YouTube-Live` folder.
 
 4. Install Chromium
 
@@ -35,7 +35,7 @@ npx playwright install
 ```javascript
 modules: [
   {
-    module: "MMM-YouTube-Live-Stream",
+    module: "MMM-YouTube-Live",
     position: "middle_center"
   }
 ]
@@ -54,7 +54,7 @@ Configure this module in your MagicMirror config file which is located at `confi
 ```javascript
 modules: [
   {
-    module: "MMM-YouTube-Live-Stream",
+    module: "MMM-YouTube-Live",
     position: "middle_center",
     config: {
       // Options
