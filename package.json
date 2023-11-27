@@ -1,14 +1,14 @@
-{
-  "name": "mmm-youtube-live-stream",
+a{
+  "name": "mmm-youtube-live",
   "version": "1.0.0",
   "description": "A YouTube live stream module.",
-  "main": "MMM-YouTube-Live-Stream.js",
+  "main": "MMM-YouTube-Live.js",
   "scripts": {
     "lint": "eslint ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ngnijland/MMM-YouTube-Live-Stream.git"
+    "url": "git+https://github.com/aunre/MMM-YouTube-Live.git"
   },
   "keywords": [
     "youtube",
@@ -19,9 +19,9 @@
   "author": "Niek Nijland <ngnijland@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ngnijland/MMM-YouTube-Live-Stream/issues"
+    "url": "https://github.com/aunrea/MMM-YouTube-Live/issues"
   },
-  "homepage": "https://github.com/ngnijland/MMM-YouTube-Live-Stream#readme",
+  "homepage": "https://github.com/aunrea/MMM-YouTube-Live#readme",
   "devDependencies": {
     "eslint": "^8.32.0",
     "eslint-config-airbnb-base": "^15.0.0",
