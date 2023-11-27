@@ -1,13 +1,13 @@
 /* global Module */
 
 /* Magic Mirror
- * Module: MMM-YouTube-Live-Stream
+ * Module: MMM-YouTube-Live
  *
  * By Niek Nijland <ngnijland@gmail.com>
  * MIT Licensed.
  */
 
-Module.register('MMM-YouTube-Live-Stream', {
+Module.register('MMM-YouTube-Live', {
   defaults: {
     updatesEvery: 5 * 60 * 1000,
     notStreamingTimeout: 10 * 1000,
@@ -124,15 +124,15 @@ Module.register('MMM-YouTube-Live-Stream', {
       root.innerText = 'Channel is not streaming...';
       return root;
     }
-
+// Make changes here.
     const iframe = document.createElement('iframe');
     iframe.className = 'MMM-YouTube-LiveStream__iframe';
     iframe.src = `https://www.youtube.com/embed/${this.videoId}?autoplay=1`;
 
     return iframe;
   },
-
+//
   getStyles: function () {
-    return [this.file('css/MMM-YouTube-Live-Stream.css')];
+    return [this.file('css/MMM-YouTube-Live.css')];
   },
 });
